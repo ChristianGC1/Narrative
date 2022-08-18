@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 	private Rigidbody2D myrigidbody;
@@ -52,9 +53,10 @@ public class Player : MonoBehaviour {
 	}
 	void Finish ()
 	{
-		myrigidbody.bodyType = RigidbodyType2D.Static;
-		PanelWin.SetActive (true);
-		Destroy (gameObject);
+		SceneManager.LoadScene("Born");
+		//myrigidbody.bodyType = RigidbodyType2D.Static;
+		//PanelWin.SetActive (true);
+		//Destroy (gameObject);
 	}
 	void OnTriggerEnter2D (Collider2D col)
 	{
