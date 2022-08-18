@@ -1642,7 +1642,7 @@ GameObject:
   - component: {fileID: 781292771}
   m_Layer: 0
   m_Name: Portal_1
-  m_TagString: Portal
+  m_TagString: P5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4407,7 +4407,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375421765}
   m_LocalRotation: {x: -0, y: 0.01651697, z: -0, w: 0.9998637}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4416,7 +4416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 1.893, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1111, y: 216}
+  m_AnchoredPosition: {x: 1355, y: 263}
   m_SizeDelta: {x: 475.55, y: 144.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375421767
@@ -4439,8 +4439,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I also enjoyed my first drop of alcohol and learned that the legal age
-    in some countries is much lower than 21!
+  m_text: I also enjoyed my first alcoholic beverage and learned that the legal age
+    in most countries is much lower than 21!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4716,7 +4716,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485289003}
   m_LocalRotation: {x: -0, y: 0.01651697, z: -0, w: 0.9998637}
-  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4725,7 +4725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 1.893, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1015, y: -47}
+  m_AnchoredPosition: {x: 1077, y: -3}
   m_SizeDelta: {x: 475.55, y: 144.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1485289005
@@ -4748,7 +4748,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I enjoyed exploring the country's landscapes, as well as the infrastructure
+  m_text: I enjoyed exploring the country's landscapes, as well as some of the infrastructure,
     such as castles!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6840,7 +6840,7 @@ Camera:
   far clip plane: 80
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.7219667
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7592,8 +7592,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I always hated beer, but Germany thought me that beer does not have to
-    taste so bad.
+  m_text: I always hated beer, but Germany taught me that beer does not have to taste
+    so bad.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -573,7 +573,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125395189}
   m_LocalRotation: {x: -0, y: -0, z: -0.70710707, w: 0.70710653}
-  m_LocalPosition: {x: -4.47, y: -4.12, z: -1.2043476}
+  m_LocalPosition: {x: -5.425956, y: -4.12, z: -1.2043476}
   m_LocalScale: {x: 0.5375, y: 0.125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1277,11 +1277,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4898169607954608, guid: 6d44212a1775bed4c83b0c2d5e0667b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.02
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 4898169607954608, guid: 6d44212a1775bed4c83b0c2d5e0667b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.66
+      value: 1.57
       objectReference: {fileID: 0}
     - target: {fileID: 4898169607954608, guid: 6d44212a1775bed4c83b0c2d5e0667b6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1641,7 +1641,7 @@ GameObject:
   - component: {fileID: 781292771}
   m_Layer: 0
   m_Name: Portal_1
-  m_TagString: Portal
+  m_TagString: P7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1848,7 +1848,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 408, y: 53}
+  m_AnchoredPosition: {x: 344, y: 53}
   m_SizeDelta: {x: 475.55, y: 144.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &828868648
@@ -2565,7 +2565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963578325}
   m_LocalRotation: {x: -0, y: -0, z: -0.70710707, w: 0.70710653}
-  m_LocalPosition: {x: -10.76, y: -4.12, z: -1.2043476}
+  m_LocalPosition: {x: -12.26, y: -4.12, z: -1.2043476}
   m_LocalScale: {x: 0.5375, y: 0.125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3167,7 +3167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -258, y: 36}
+  m_AnchoredPosition: {x: -318, y: 96}
   m_SizeDelta: {x: 475.55, y: 144.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1054344427
@@ -3596,11 +3596,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4980149065125274, guid: a468dafd46efc3949a72c1de321c613e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.95
+      value: -9.92
       objectReference: {fileID: 0}
     - target: {fileID: 4980149065125274, guid: a468dafd46efc3949a72c1de321c613e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.71
+      value: 1.97
       objectReference: {fileID: 0}
     - target: {fileID: 4980149065125274, guid: a468dafd46efc3949a72c1de321c613e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4122,7 +4122,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298382386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.354044, y: -1.14, z: 0}
+  m_LocalPosition: {x: -5.31, y: -1.14, z: 0}
   m_LocalScale: {x: 0.8810606, y: 0.8840987, z: 0.6076279}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4416,7 +4416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 1.893, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1270, y: 216}
+  m_AnchoredPosition: {x: 1282, y: 246}
   m_SizeDelta: {x: 475.55, y: 144.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375421767
@@ -4439,8 +4439,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: One thing that I do always realize is how much I miss snow each time I
-    come to Australia. But that's why we got Blue Mountains right?
+  m_text: A major part of my life has gotten use to snow. A lot of people don't believe
+    me when I tell them I went snowboarding in Australia! Blue Mountains was a great
+    spot!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4503,7 +4504,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -6.560875, y: 0, z: -181.3796, w: 0}
+  m_margin: {x: -6.560875, y: 0, z: -225.28758, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4748,7 +4749,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Although the start of 2020 was rouigh on all of us, I had the privilige
+  m_text: Although the start of 2020 was rough on all of us, I had the privilige
     to be in Australia with my wife. I have not been able to explore much because
     of this, so I hope I can explore more soon!
   m_isRightToLeft: 0
@@ -6841,7 +6842,7 @@ Camera:
   far clip plane: 80
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.8232718
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
 	private Rigidbody2D myrigidbody;
 	[SerializeField]
 	private float movementspeed = 10f;
@@ -72,5 +73,37 @@ public class Player : MonoBehaviour {
 		{
 			Finish ();
 		}
-	}
+        if (col.tag == "P1")
+        {
+            SceneManager.LoadScene("Born");
+        }
+        if (col.tag == "P2")
+        {
+            SceneManager.LoadScene("DR");
+        }
+        if (col.tag == "P3")
+        {
+            SceneManager.LoadScene("US");
+        }
+        if (col.tag == "P4")
+        {
+            SceneManager.LoadScene("DE");
+        }
+        if (col.tag == "P5")
+        {
+            SceneManager.LoadScene("IT");
+        }
+        if (col.tag == "P6")
+        {
+            SceneManager.LoadScene("AUS");
+        }
+        if (col.tag == "P7")
+        {
+            SceneManager.LoadScene("Outro");
+        }
+        if (col.tag == "P8")
+        {
+            SceneManager.LoadScene("Intro");
+        }
+    }
 }
