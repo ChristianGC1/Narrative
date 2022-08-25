@@ -6066,8 +6066,8 @@ GameObject:
   - component: {fileID: 1901250721}
   - component: {fileID: 1901250720}
   m_Layer: 0
-  m_Name: Death
-  m_TagString: Death
+  m_Name: Block
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6082,7 +6082,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -1.4479508, y: -0.2498951}
@@ -6105,14 +6105,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901250719}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.63, z: 0}
-  m_LocalScale: {x: 7.65, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.70710707, w: 0.70710653}
+  m_LocalPosition: {x: -15.75, y: 1.08, z: 0}
+  m_LocalScale: {x: -0.38250765, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!4 &1940905702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4727428803052766, guid: 3c810389937833b418277de0d710b1a9, type: 3}
